@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hello!</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0d1b2a;
+      --card: #1b263b;
+      --accent: #415a77;
+      --text: #e0e1dd;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      font-family: "Poppins", sans-serif;
+      color: var(--text);
+      padding: 2rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 3rem 2.5rem;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-weight: 300;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+
+    a.btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--accent);
+      color: var(--text);
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+
+    a.btn:hover {
+      background: #778da9;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Hello, world!</h1>
+    <p>This is a minimal single-file website created by Andreas.<br />Open-source and ready to remix.</p>
+    <a class="btn" href="https://github.com">Explore on GitHub</a>
+  </div>
+</body>
+
+</html>
