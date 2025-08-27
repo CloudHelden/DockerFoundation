@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pokémon Finder</title>
+<style>
+    #pokemon-karte {
+    border: 3px solid #ffcb05;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(to bottom, #3d7dca, #003a70);
+    color: white;
+    max-width: 300px;
+}
+    img { width: 200px; }
+</style>
+</head>
+<body>
+<h1>🔍 Pokémon Finder</h1>
+<input type="text" id="pokemon-name" placeholder="z.B. pikachu">
+    <button onclick="suchePokemon()">Suchen!</button>
+
+    <div id="ergebnis"></div>
+
+    <script>
+        function suchePokemon() {
+        let name = document.getElementById('pokemon-name').value.toLowerCase();
+
+        // Pokemon API aufrufen
+        fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
+        .then(antwort => antwort.json())
+        .then(pokemon => {
+        document.getElementById('ergebnis').innerHTML = `
+                        <div id="pokemon-karte">
+                            <h2>${pokemon.name.toUpperCase()}</h2>
+                            <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
+                            <p>Größe: ${pokemon.height / 10} m</p>
+                            <p>Gewicht: ${pokemon.weight / 10} kg</p>
+                            <p>Typ: ${pokemon.types.map(t => t.type.name).join(', ')}</p>
+                        </div>
+                    `;
+    })
+        .catch(fehler => {
+        document.getElementById('ergebnis').innerHTML =
+        '<p>❌ Pokémon nicht gefunden!</p>';
+    });
+    }
+    </script>
+</body>
+</html>
