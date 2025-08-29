@@ -1,0 +1,207 @@
+<mxfile host="Electron" modified="2025-08-04T13:08:12.526Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="fJ6oauIUZnH3PAumDcMM" version="24.6.4" type="device">
+  <diagram name="Seite-1" id="QKfuSPyuFdd52cTxMT8o">
+    <mxGraphModel dx="3136" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-6" value="Linux (OS)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="610" width="730" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-7" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-8" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-9" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-10" value="HDD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-11" value="Programme" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-12" value="Dateien / Bibliotheken" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-293" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-13" value=".conf" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="470" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-14" value=".html" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="470" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-15" target="s-YtKQPUpmtOgcLdedr7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="430" width="430" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-16" value="Website&amp;nbsp;&lt;div&gt;learn.linux.local&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-18" target="s-YtKQPUpmtOgcLdedr7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-18" value="Docker (Docker-Desktop)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-19" value="Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-20" target="s-YtKQPUpmtOgcLdedr7-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="470" />
+              <mxPoint x="240" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-20" value="Dockerimage" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="1470" width="175" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-1" value="Docker Image" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" vertex="1" parent="s-YtKQPUpmtOgcLdedr7-28">
+          <mxGeometry width="175" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-2" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="s-YtKQPUpmtOgcLdedr7-28">
+          <mxGeometry x="10" y="100" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-3" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="s-YtKQPUpmtOgcLdedr7-28">
+          <mxGeometry x="90" y="100" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-4" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="s-YtKQPUpmtOgcLdedr7-28">
+          <mxGeometry x="10" y="30" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-5" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="s-YtKQPUpmtOgcLdedr7-28">
+          <mxGeometry x="90" y="30" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-29" value="Linux (Desktop)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-30" value="Windows (Desktop)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-31" value="MAC OS (Desktop)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-32" value="Linux (Server)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-33" value="Docker Daemon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1730" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-34" value="Docker Daemon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1730" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-35" value="Docker Daemon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1730" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-36" value="Docker Daemon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="1730" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-37" target="s-YtKQPUpmtOgcLdedr7-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-50" value="docker run" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-YtKQPUpmtOgcLdedr7-38">
+          <mxGeometry x="-0.4244" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-37" value="Docker Images" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-885" y="1674" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-39" value="&lt;div&gt;1 Prozess&lt;/div&gt;Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="1660" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-41" target="s-YtKQPUpmtOgcLdedr7-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-41" value="Dockerfile&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;FROM: nginx&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ADD: ./html/index.html /usr/share/nginx/html/index.html&lt;/div&gt;&lt;div&gt;ADD: *.conf /etc/nginx/conf.d/&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ENTRYPOINT entrypoint.sh&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1300" y="1320" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-43" value="installiere nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="1437.5" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-45" value="linux kernel (ubuntu)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="1402.5" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-46" target="s-YtKQPUpmtOgcLdedr7-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-49" value="docker build&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s-YtKQPUpmtOgcLdedr7-48">
+          <mxGeometry x="0.0785" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-46" value="Füge nginx config hinzu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="1472.5" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760" y="1400" as="sourcePoint" />
+            <mxPoint x="-760" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-760" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-51" value="docker run mysql&lt;div&gt;docker run nginx&lt;/div&gt;&lt;div&gt;docker run xyz...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="1970" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-53" value="docker compose" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="1930" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-54" value="docker-compose.yaml&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;service mysql&lt;/div&gt;&lt;div&gt;nginx...&lt;/div&gt;&lt;div&gt;..&lt;/div&gt;&lt;div&gt;ports&amp;nbsp;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-544.5" y="1840" width="143" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-56" value="Docker Container&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-933" y="2825" width="640" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-58" target="s-YtKQPUpmtOgcLdedr7-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-58" value="Docker Image" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="2830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-59" target="s-YtKQPUpmtOgcLdedr7-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-59" value="Dockerfile" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="2660" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-62" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="2760" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-63" value="/etc/nginx/conf.d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-64" target="s-YtKQPUpmtOgcLdedr7-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-64" value="$VORNAME.conf" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="2570" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-YtKQPUpmtOgcLdedr7-65" target="s-YtKQPUpmtOgcLdedr7-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-65" value="github" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="2140" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-66" value="Dockerfile&lt;div&gt;./html&lt;/div&gt;&lt;div&gt;./conf/andy-vhost.conf&lt;/div&gt;&lt;div&gt;./conf/sebastian-vhost.conf&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="2065" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-68" value="/usr/share/nginx/html/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-653" y="2690" width="163" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-YtKQPUpmtOgcLdedr7-69" value="$VORNAME.html" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-613" y="2580" width="103" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
